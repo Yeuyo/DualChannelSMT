@@ -37,7 +37,6 @@ Batch_MTT_code/
   estim_param_part_GN.m              Gauss–Newton parameter estimation
   main.m                             Original standalone MTT batch example
   localizeParticles*.m, buildTracks2.m   File-based variants (not used by the main script)
-  bfmatlab/                          Bio-Formats MATLAB toolbox (bundled)
   saveastiff_4.0/                    TIFF writer (Y. Tak, BSD — see its license.txt)
 ```
 
