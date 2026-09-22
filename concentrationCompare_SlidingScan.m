@@ -123,9 +123,9 @@ for n = 1 : length(c1List)
       ptsInRange = sum(D <= 4);
       ptsMax = find(ismember(ptsInRange, max(ptsInRange(:))));
       if length(ptsMax) > 1
-        row = find(D(:, ptsMax(1)) <= 4);
+        row = find(D(:, ptsMax(1)) <= distTol);
       else
-        row = find(D(:, ptsMax) <= 4);
+        row = find(D(:, ptsMax) <= distTol);
       end
       tempPts = pts(idx, 7);
       pts(tempPts(row), 6) = clusterID;
