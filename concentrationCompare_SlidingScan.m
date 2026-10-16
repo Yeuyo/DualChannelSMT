@@ -2,10 +2,10 @@
 clear; clc; close all;
 
 % Folder containing all the tracked files from the dashboard
-c1Path = 'G:\Bitong\OCT4 SMT_Mode 1\640';
+c1Path = 'G:\Data\640';
 % Folder containing mask files
-c2Path = 'G:\Bitong\OCT4 SMT_Mode 1\Masks';
-resultPath = 'G:\Bitong\OCT4 SMT_Mode 1\Result';
+c2Path = 'G:\Data\Masks';
+resultPath = 'G:\Data\Result';
 % Plot figures?
 toPlot = 0;
 % Seconds to be defined as long binding
